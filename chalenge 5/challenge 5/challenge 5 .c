@@ -7,10 +7,10 @@ int main()
     printf("veuillez entrer la valeur de temperature de l eau : ");
     scanf("%d",&T);
     if (T<0)
-        printf("lètat de l'eau est Solide .");
+        printf("lÃ¨tat de l'eau est Solide .");
     else if (T>=0 && T<100)
-    printf("lètat de l'eau est liquide ");
+    printf("lÃ¨tat de l'eau est liquide ");
     else
-        printf("lètat de l'eau est Gaze");
+        printf("lÃ¨tat de l'eau est Gaze");
     return 0;
 }
